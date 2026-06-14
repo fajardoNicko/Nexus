@@ -4,7 +4,7 @@ import ProtectedRoute from './routes/ProtectedRoute'
 import RoleRedirect from './routes/RoleRedirect'
 
 
-// Dashboard placeholders
+// Dashboard
 import AdminDashboard from './pages/dashboard/AdminDashboard'
 import ProcurementDashboard from './pages/dashboard/ProcurementDashboard'
 import DepartmentDashboard from './pages/dashboard/DepartmentDashboard'
@@ -12,6 +12,8 @@ import FinanceDashboard from './pages/dashboard/FinanceDashboard'
 import VendorDashboard from './pages/dashboard/VendorDashboard'
 import AuditorDashboard from './pages/dashboard/AuditorDashboard'
 import UnauthorizedPage from './pages/UnauthorizedPage'
+
+// Auth
 
 export default function App() {
   return (
